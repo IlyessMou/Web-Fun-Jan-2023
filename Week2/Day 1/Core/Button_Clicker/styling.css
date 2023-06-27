@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+.container{
+    width: 830px;
+    margin: 20px;
+    margin-left: 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(204,204,204);
+    height: 50px;
+}
+h1,h2{
+    font-family: sans-serif;
+}
+.search{
+    height: 20px;
+    width: 250px;
+    border: 3px solid black;
+}
+.login{
+    background-color: rgb(43,120,228);
+    color: rgb(255,255,255);
+    width: 60px;
+    height: 20px;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+
+}
+.Box1,.Box2{
+    width: 55%;
+    display: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: large;
+    margin-right:40px ;
+    margin-bottom:0 ;
+}
+
+ul{
+    list-style: none;
+}
+.noun{
+    margin-left: 10px;
+}
+.plu{
+    font-size: smaller;
+    margin-bottom: 10px;
+}
+.likes{
+    background-color: rgb(255,217,102);
+    color: rgb(4,3,1);
+    width: 80px;
+    height: 30px;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    margin-top: 10px;
+}
+.rightpart1{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.description{
+    font-weight: bolder;
+}
+#top
+{
+    display: flex;
+}
+.Box3{
+    width: 290px;
+    height: 140px;
+    margin: auto 0;
+    border: 2px solid black;
+}
+.define{
+    margin: 20px;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(147,196,125);
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+
+
+}
+.top3{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.def{
+    margin-left: 20px ;
+    font-size: x-large;
+}
